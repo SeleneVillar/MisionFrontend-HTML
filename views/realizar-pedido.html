@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <meta name="description" content="Pasteles deliciosos 100% personalizados, hechos con ingredientes frescos y naturales. Llena tu vida con la dulzura de la pastelería Procope.">
+    <meta name="keywords" content="pastelería, pastel, pasteles, postre, sabores, dulce, delicioso">
+    <meta name="author" content="Selene Villar">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS -->
+    <link href="../styles/style.css" rel="stylesheet">
+    <!-- Icon -->
+    <link href="../assets/img/icono.png" rel="shortcut icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <title>Realizar Pedido</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-img shadow-sm fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../assets/img/logo-blanco.png" alt="Logo Procope">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#realizar-pedido">Realizar Pedido</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="pastelero.html">Pedidos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+    <!-- Order -->
+    <section id="realizar-pedido">
+        <div class="container realizar-pedido">
+            <div class="section-title text-center ">
+                <h2>
+                    <span>Ordenar</span> <br>
+                    <bold>Realizar Pedido</bold>
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form class="row g-3 bg-blue rounded-3">
+                        <div class="col-md-4">
+                            <label for="nombre" class="form-label">Nombre Completo</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre completo" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="direccion" class="form-label">Dirección</label>
+                            <input type="text" class="form-control" id="direccion" placeholder="Ingrese su dirección" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="telefono" class="form-label">Teléfono</label>
+                            <input type="text" class="form-control" id="telefono" placeholder="Ingrese su número de teléfono" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="entrega" class="form-label">Fecha de entrega</label>
+                            <input type="date" class="form-control" id="entrega" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="detalles" class="form-label">Descripción general del pastel</label>
+                            <textarea class="form-control" placeholder="Especifique los detalles de su pedido" id="detalles" required></textarea>
+                        </div>
+                        <div class="form-title text-center ">
+                            <h2>
+                                <span>Sabores</span>
+                            </h2>
+                        </div>
+                        <div class="col-md-12 text-center sabores">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="chocolate">
+                                <label class="form-check-label" for="chocolate">Chocolate $300.00</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="vainilla">
+                                <label class="form-check-label" for="vainilla">Vainilla $280.00</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="oreo">
+                                <label class="form-check-label" for="oreo">Oreo $380.00</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="red-velvet">
+                                <label class="form-check-label" for="red-velvet">Red Velvet $380.00</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="zanahoria">
+                                <label class="form-check-label" for="zanahoria">Zanahoria $400.00</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="queso">
+                                <label class="form-check-label" for="queso">Queso $450.00</label>
+                            </div>
+                        </div>
+                        <div class="form-title text-center ">
+                            <h2>
+                                <span>Adornos</span>
+                            </h2>
+                        </div>
+                        <div class="col-md-12 text-center adornos">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="frutas">
+                                <label class="form-check-label" for="frutas">Frutas $120.00</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="macarons">
+                                <label class="form-check-label" for="macarons">Macarons $200.00</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="donas">
+                                <label class="form-check-label" for="donas">Donas $220.00</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="unicornio">
+                                <label class="form-check-label" for="unicornio">Unicornio $250.00</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="arcoiris">
+                                <label class="form-check-label" for="arcoiris">Arcoíris $80.00</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="drip-cake">
+                                <label class="form-check-label" for="drip-cake">Drip Cake $100.00</label>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button class="btn btn-primary btn-md btn-pedido" type="submit">Realizar el pedido</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Order -->
+
+    <!-- Footer -->
+    <footer class="bg-footer text-center pb-2 ">
+        <img src="../assets/img/logo.png " alt="Logo Procope ">
+        <p>Diseño web realizado por Selene Villar</p>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+</body>
+
+</html>
